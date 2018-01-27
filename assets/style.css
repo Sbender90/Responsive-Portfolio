@@ -145,7 +145,7 @@ body {
   }
   .work:nth-child(even) {
     margin-right: 40px;
-}
+	}
   
   .projects  h3 {
 	position: absolute;
