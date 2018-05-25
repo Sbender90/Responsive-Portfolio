@@ -103,7 +103,7 @@ body, html {
 	text-align: center;
 	background: #3F3E5D;
 	border-top: 8px solid #161510;
-	position: absolute;
+	position: fixed;
    bottom:0;
    width:100%;
 	}
@@ -244,11 +244,11 @@ body, html {
 		background-image: url("./images/Mountain_Green_1.jpg");
 	
 		/* Set a specific height */
-		height: 1000px;
+		height: 100%;
 	
 		/* Create the parallax scrolling effect */
 		background-attachment: fixed;
-		background-position: 50%;
+		background-position: auto;
 		background-repeat: no-repeat;
 		background-size: 100%;
 	}
